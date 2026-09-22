@@ -37,7 +37,7 @@ A high-throughput tactical perimeter surveillance platform that transforms legac
 ## Directory Structure
 
 ```text
-d:\SIH-yuh\
+InnoVision/
 ├── config/
 │   ├── settings.py           # Unified hardware profiles, thresholds, and stream URLs
 │   └── watchlist.json        # Security suspect watchlist and authorized whitelist
@@ -65,6 +65,7 @@ d:\SIH-yuh\
 │   ├── src/                  # React components, styles, and hooks
 │   ├── package.json          # Frontend dependencies and scripts
 │   └── vite.config.js        # Vite config with backend proxy setup
+├── InnoVision_Technical_Report.pdf # Comprehensive project report & technical architecture documentation
 ├── run_platform.py           # Unified single-command system orchestrator (Backend)
 ├── setup.bat                 # Windows setup & dependency configuration script (Backend)
 └── requirements.txt          # Deep learning & vision platform dependencies
